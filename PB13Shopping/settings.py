@@ -26,6 +26,9 @@ SECRET_KEY = 'django-insecure-qk0arsnz3kfboplebd4j2l58ec08c*!^c0c08rju!*=4@2lm86
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = [
+    'https://e-commerce-website-ruzr.onrender.com',
+]
 
 
 # Application definition
